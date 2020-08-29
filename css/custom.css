@@ -1,0 +1,22 @@
+/* Add here all your CSS customizations */
+ul.port-content-list{
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+ul.port-content-list li{
+    display: inline-block;
+    list-style: none;
+    border-right: 1px solid #ddd;
+    padding: 2px 10px;
+}
+ul.port-content-list li:last-child{
+    border-right: none;
+}
+ul.port-content-list li a{
+    color: #000;
+}
+.testimonial-content > p{
+    color: #000 !important;
+}
